@@ -8,7 +8,9 @@
 (load-file "~/.config/emacs/packcfg/which-key.el")
 (load-file "~/.config/emacs/packcfg/dashboard.el")
 (load-file "~/.config/emacs/packcfg/ocaml.el")
-
+(load-file "~/.config/emacs/packcfg/markdown.el")
+(load-file "~/.config/emacs/packcfg/nixe.el")
+(load-file "~/.config/emacs/packcfg/direnv.el")
 
 (menu-bar-mode -1)  
 (tool-bar-mode -1)
@@ -16,7 +18,9 @@
 (global-display-line-numbers-mode 1)
 
 (setq make-backup-files nil)
-(setq default-frame-alist '((font . "Iosevka Nerd Font-11")))
+
+
+(setq default-frame-alist '((font . "Iosevka Nerd Font-12")))
 (electric-pair-mode 1)
 
 (setq gc-cons-threshold 1000000000)
@@ -52,7 +56,6 @@
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 
-(define-key global-map (kbd "RET") 'newline-and-indent)
 
 (show-paren-mode 1)
 
