@@ -1,5 +1,5 @@
 (use-package doom-themes
   :ensure t
   :config 
-     (load-theme 'doom-gruvbox t)
+     (load-theme 'doom-vibrant t)
      (doom-themes-visual-bell-config))
